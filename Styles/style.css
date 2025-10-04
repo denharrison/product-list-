@@ -200,4 +200,32 @@ svg * {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+@font-face {
+  font-family: "Red Hat Text";
+  src: url(/Fonts/Red-Hat-Text/RedHatText-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Red Hat Text";
+  src: url(/Fonts/Red-Hat-Text/RedHatText-SemiBold.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Red Hat Text";
+  src: url(/Fonts/Red-Hat-Text/RedHatText-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  background-color: rgb(252, 248, 246);
+}
+
+.center {
+  margin: 112px 88px;
 }/*# sourceMappingURL=style.css.map */
