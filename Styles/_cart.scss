@@ -1,0 +1,91 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-basis: 384px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    max-height: 542px;
+    padding: 24px;
+
+    &__title {
+        color: rgba(199, 59, 15, 1);
+        font-family: $MainFont;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    &-item {
+        display: flex;
+        justify-content: space-between;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            font-family: $MainFont;
+            line-height: 1;
+            gap: 8px;
+        }
+        &-info {
+            display: flex;
+            font-size: 14px;
+            gap: 8px;
+
+            &__rate {
+                color: rgba(199, 59, 15, 1);
+                font-weight: 600;
+            }
+            &__price {
+                color: rgba(135, 99, 90, 1);
+                font-weight: 400;
+            }
+            &__total {
+                color: rgba(135, 99, 90, 1);
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.order-price {
+    display: flex;
+    justify-content: space-between;
+    font-family: $MainFont;
+    color: rgba(38, 15, 8, 1);
+    line-height: 1;
+
+    &__text {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &__price {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+.delivery-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(252, 248, 246, 1);
+    height: 52px;
+    gap: 8px;
+    font-family: $MainFont;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.button-cart {
+    background-color: rgba(199, 59, 15, 1);
+    border-radius: 999px;
+    height: 53px;
+    &__text {
+        color: rgba(255, 255, 255, 1);
+        
+    }
+}

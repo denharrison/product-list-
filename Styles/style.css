@@ -228,4 +228,177 @@ body {
 
 .center {
   margin: 88px 112px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 32px;
+  height: 1185px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-basis: 384px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  max-height: 542px;
+  padding: 24px;
+}
+.cart__title {
+  color: rgb(199, 59, 15);
+  font-family: "Red Hat Text";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-item__container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Text";
+  line-height: 1;
+  gap: 8px;
+}
+.cart-item-info {
+  display: flex;
+  font-size: 14px;
+  gap: 8px;
+}
+.cart-item-info__rate {
+  color: rgb(199, 59, 15);
+  font-weight: 600;
+}
+.cart-item-info__price {
+  color: rgb(135, 99, 90);
+  font-weight: 400;
+}
+.cart-item-info__total {
+  color: rgb(135, 99, 90);
+  font-weight: 600;
+}
+
+.order-price {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Red Hat Text";
+  color: rgb(38, 15, 8);
+  line-height: 1;
+}
+.order-price__text {
+  font-size: 14px;
+  font-weight: 400;
+}
+.order-price__price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.delivery-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgb(252, 248, 246);
+  height: 52px;
+  gap: 8px;
+  font-family: "Red Hat Text";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.button-cart {
+  background-color: rgb(199, 59, 15);
+  border-radius: 999px;
+  height: 53px;
+}
+.button-cart__text {
+  color: rgb(255, 255, 255);
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 800px;
+  gap: 32px;
+}
+.product-list__title {
+  color: rgb(38, 15, 8);
+  font-family: "Red Hat Text";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0%;
+}
+.product-list__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.card-image-container {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.card-image-container__img {
+  border-radius: 8px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-bottom: -22px;
+  gap: 8px;
+  width: 160px;
+  height: 44px;
+  border-color: rgb(173, 138, 133);
+  border-radius: 999px;
+  background-color: rgb(255, 255, 255);
+}
+.card-button__text {
+  color: rgb(38, 15, 8);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: "Red Hat Text";
+}
+.item-info__type {
+  color: rgb(135, 99, 90);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+}
+.item-info__name {
+  color: rgb(38, 15, 8);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+}
+.item-info__price {
+  color: rgb(199, 59, 15);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
 }/*# sourceMappingURL=style.css.map */
