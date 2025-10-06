@@ -254,9 +254,15 @@ body {
   font-weight: 700;
   line-height: 1;
 }
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
 .cart-item {
   display: flex;
   justify-content: space-between;
+  height: 46px;
 }
 .cart-item__container {
   display: flex;
@@ -282,6 +288,11 @@ body {
   color: rgb(135, 99, 90);
   font-weight: 600;
 }
+.cart-item::after {
+  content: url(/Icons/Line-cart.svg);
+  position: absolute;
+  margin-top: 43px;
+}
 
 .order-price {
   display: flex;
@@ -289,6 +300,7 @@ body {
   font-family: "Red Hat Text";
   color: rgb(38, 15, 8);
   line-height: 1;
+  padding-top: 24px;
 }
 .order-price__text {
   font-size: 14px;
@@ -317,6 +329,7 @@ body {
   background-color: rgb(199, 59, 15);
   border-radius: 999px;
   height: 53px;
+  border-color: transparent;
 }
 .button-cart__text {
   color: rgb(255, 255, 255);
