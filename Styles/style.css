@@ -394,7 +394,7 @@ body {
 .item-info {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
   font-family: "Red Hat Text";
 }
 .item-info__type {
@@ -414,4 +414,23 @@ body {
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    margin: 40px;
+  }
+  .main-content {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .product-card {
+    width: 213.33px;
+  }
+  .cart {
+    margin-bottom: 40px;
+  }
+  .cart-item::after {
+    content: url(/Icons/Tablet-line-cart.svg);
+  }
 }/*# sourceMappingURL=style.css.map */
